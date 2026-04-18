@@ -1,0 +1,35 @@
+.img-p{
+  width: 100%;
+  height: 300px;
+}
+.body-p{
+  height: 100px;
+}
+.img-c{
+  width: 40%;
+  
+}
+
+.added{
+  display: flex;
+  align-items: center;
+  color: green;
+  margin: 5px;
+  gap: 2;
+  opacity: 0;
+}
+.added-js{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: green;
+  margin: 5px;
+  gap: 2;
+  opacity: 3;
+  transition: opacity 2s ease;
+}
+.hid{
+  display: hidden;
+  opacity: 3;
+  transform: rotate() 3s;
+}

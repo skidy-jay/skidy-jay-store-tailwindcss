@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Skidy Jay Store</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="  bg-black ">
+    <div class="shadow-md p-4 flex justify-between item-center ">
+      
+      <a href="" class="navbar-brand text-orange-500 ms-3 ">
+        <span class="fw-bold font-bold text-xl ">Skidy Jay Store</span>
+      </a>
+      <a href="cart.html" class="btn text-orange-500 ms-3  text-xl ">
+         <i class="bi bi-cart-fill text-2xl"></i>
+        cart <span class="cartquantity-js ">0</span>
+      
+      </a>
+      <div class="relative">
+        <button class="text-orange-500 md:hidden btn-js ">
+         <i class="bi bi-list text-2xl"></i>
+        </button>
+      
+      
+
+        <div class="   text-orange-500 gap-5 hidden md:flex" id="navbarContent ">
+          
+            <a class="nav-link active" href="">Home</a>
+            <a class="nav-link active" href="">Products</a>
+            <a class="nav-link active" href="">contact</a>
+  
+        
+          <a href="" class="">
+            <i class="bi bi-cart-fill text-warning fs-3 me-4"></i>
+            <div>
+              <a class="nav-link active btn btn-warning px-3 py-1 align-item-center font-bold" href="">Login</a>
+            </div>
+            
+          </a>
+        </div>
+        <div class="absolute hidden right-0 bg-black top-0 w-40 px-5  text-orange-500 rounded get-js md:hidden " id="navbarContent ">
+          
+            <i class="bi bi-x text-4xl flex justify-end cancel-js cursor-pointer"></i> 
+          
+           
+            <a class="block py-3" href="">Home</a>
+            <a class="block py-3" href="">Products</a>
+            <a class="block py-3" href="">contact</a>
+  
+        
+          <a href="" class="">
+            <i class="bi bi-cart-fill text-warning fs-3 me-4"></i>
+            <div>
+              <a class="block py-3 align-item-center font-bold" href="">Login</a>
+            </div>
+            
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+  <div class="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 js-cont  remove-js">
+    
+      
+
+    
+
+  </div>
+  
+  
+ 
+</body>
+ <script type="module" src="store.js"></script>
+</html>
